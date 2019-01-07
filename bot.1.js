@@ -23,13 +23,13 @@ client.on("message", message => {
              
      if(!message.channel.guild) return;
 
- if (message.content === "*help") {
+ if (message.content === "^^help") {
    message.react("😜")
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .addField("『Diamond Bot』 『اسم البوت』", true)
       
-      .addField("『@حـ♥̨̥̬̩سوني آإلعرآإقـ♥̨̥̬̩ي#7725』『مصمم البوت』", true)
+      .addField("『مصمم البوت Nv|𝕐𝕆𝕌𝕊𝕀𝔽#9925』", true)
       
       .addField("『^help^』😘『اذا تبي جميع الاوامر مع اوامر اضافية』😵", true)
       
